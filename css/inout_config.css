@@ -1,0 +1,203 @@
+div.container
+{
+  width: 1200px;
+  height: 900px;
+  background-color: #FFFF66;
+  font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+
+div.header
+{
+  top: 0%;
+  width: 100%;
+  height:5%;
+  background-color: #0000CC;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+div.menu
+{
+  top: 6%;
+  height: 5%;
+  width: 100%;
+}
+
+
+div.content
+{
+  width: 100%;
+  top: 11%;
+  height: 80%;
+  overflow: auto;
+}
+
+table.list
+{
+  width: 100%;
+}
+
+th.list
+{
+  background-color: #0000FF;
+  color: #FFFFFF;
+}
+
+tr.odd
+{
+  background-color: #CCCCCC;
+}
+
+tr.even
+{
+  background-color: #FFFFFF;
+}
+
+tr.title
+{
+  background-color: #33FFFF;
+}
+
+td.title
+{
+  text-align: center;
+}
+
+td.button, th.button
+{
+  width: 16px;
+  background-color: #FFFF99;
+/*  border: 1px solid black; */
+}
+
+table.adduser
+{
+  width: 100%;
+  border: 1px solid blue;
+}
+
+caption
+{
+  font-size: larger;
+  color: white;
+  background-color: #0033CC;
+}
+
+td.adduser
+{
+  padding-top: 25px;
+  width: 50%;
+}
+
+td.deluser
+{
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+p.deluser
+{
+  width: 100%;
+  text-align: center;
+}
+
+td.bottomline
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+em
+{
+  color: red;
+}
+
+input.data, select.data
+{
+  width: 90%;
+  font-family: Verdana,Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+input.add
+{
+  font-size: 1em;
+  color: transparent; /* Fix for Firefox */
+  border-style: none;
+  border-width: 0;
+  padding: 0 0 0 16px !important; /* Fix for Internet Explorer */
+  text-align: left;
+  width: 16px;
+  height: 16px;
+  line-height: 1 !important;
+  background: transparent url(../ico/add.ico) no-repeat scroll 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input.delete
+{
+  font-size: 1em;
+  color: transparent; /* Fix for Firefox */
+  border-style: none;
+  border-width: 0;
+  padding: 0 0 0 16px !important; /* Fix for Internet Explorer */
+  text-align: left;
+  width: 16px;
+  height: 16px;
+  line-height: 1 !important;
+  background: transparent url(../ico/delete.ico) no-repeat scroll 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input.modify
+{
+  font-size: 1em;
+  color: transparent; /* Fix for Firefox */
+  border-style: none;
+  border-width: 0;
+  padding: 0 0 0 16px !important; /* Fix for Internet Explorer */
+  text-align: left;
+  width: 16px;
+  height: 16px;
+  line-height: 1 !important;
+  background: transparent url(../ico/modify.ico) no-repeat scroll 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input.up
+{
+  font-size: 1em;
+  color: transparent; /* Fix for Firefox */
+  border-style: none;
+  border-width: 0;
+  padding: 0 0 0 16px !important; /* Fix for Internet Explorer */
+  text-align: left;
+  width: 16px;
+  height: 16px;
+  line-height: 1 !important;
+  background: transparent url(../ico/up.ico) no-repeat scroll 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input.down
+{
+  font-size: 1em;
+  color: transparent; /* Fix for Firefox */
+  border-style: none;
+  border-width: 0;
+  padding: 0 0 0 16px !important; /* Fix for Internet Explorer */
+  text-align: left;
+  width: 16px;
+  height: 16px;
+  line-height: 1 !important;
+  background: transparent url(../ico/down.ico) no-repeat scroll 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
