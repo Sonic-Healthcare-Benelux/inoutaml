@@ -22,7 +22,7 @@ $sql = mysql_query($query) or die ( mysql_error( ) );
 $DatumUur = "Laatste update: " . date("d-m-Y H:i");
 echo ('<div  class="centre">');
 echo ('<div  class="titel">');
-echo ('<CENTER> IN UIT BORD v2.00 - <small><a href="https://inout-test.ot.sonic.lab/help.pdf">Help</a> <a href="https://amllabbe-my.sharepoint.com/:x:/g/personal/sofie_melis_aml-lab_be/Edo71CY0V4hImGl59vqNTF4BMYr1txyxUDuHYtcBsOvt_A?e=4%3AtkEBPp&fromShare=true&at=9&CID=0BC3C9A2-CF3D-41B2-9592-E116381D19FB&wdLOR=cBA829B9F-2A3B-4511-AD00-B427C210A004">Werkplanning KB</a> <a href="https://amllabbe.sharepoint.com/:x:/s/Infrastructure/EVIShL5m2uFMpT5yVN-V6zUBrLZK77uQHms2PmuQBmg9eg?e=Pby0lX">Telefoonlijst</a>');
+echo ('<CENTER> IN UIT BORD v2.00 - <small><a href="https://inout-test.ot.sonic.lab/help.pdf">Help</a> <a href="https://amllabbe-my.sharepoint.com/:x:/g/personal/sofie_melis_aml-lab_be/EY7RDhi_SPdBhNFFVlfMPS0ByY9gJ7Jnckb9cd3bV6Gidg?CID=AD4A6ADD-D2AE-41A5-BD1E-47ED9BD8EED4&wdLOR=c9DBC8CD2-A544-4179-B06F-8E6A2413B807">Werkplanning KB</a>');
 echo (" - $DatumUur");
 echo ('</SMALL></CENTER>');
 echo ('</div>');
